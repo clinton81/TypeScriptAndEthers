@@ -1,0 +1,129 @@
+[
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "outputToEvent_ForTest",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "para1And2Float",
+				"type": "uint256"
+			},
+			{
+				"name": "para3And6Float",
+				"type": "uint256"
+			},
+			{
+				"name": "para5Float",
+				"type": "uint256"
+			},
+			{
+				"name": "para4Add",
+				"type": "address"
+			}
+		],
+		"name": "set",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "setDefault",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "addrCurrentSender",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "para1And2",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "para3And6",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "para256",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "para4",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "para1",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "para2",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "para3",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "para5",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "para6",
+				"type": "uint256"
+			}
+		],
+		"name": "EventShowData_ForTest",
+		"type": "event"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "get",
+		"outputs": [
+			{
+				"name": "para1And2Float",
+				"type": "uint256"
+			},
+			{
+				"name": "para3And6Float",
+				"type": "uint256"
+			},
+			{
+				"name": "para5Float",
+				"type": "uint256"
+			},
+			{
+				"name": "para4Add",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
